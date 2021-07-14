@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .main {
@@ -111,6 +110,24 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.nav{
+  height: 100px;
+  background-color: #0070f3;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  min-height: 10vh;
+}
+
+.navLinks{
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 50%;
 }
 
 @media (max-width: 600px) {
